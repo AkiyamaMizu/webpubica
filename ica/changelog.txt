@@ -1,1 +1,6 @@
 Helo pls log all changes here tyyyyyyyy
+
+17/6/24 1:46am - Zen
+    - Fixed questionable html structure
+    - Updated changelog.txt
+
