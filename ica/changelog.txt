@@ -1,6 +1,10 @@
-Helo pls log all changes here tyyyyyyyy
+Helo pls log all changes here tyyyyyyyy or your gae
 
 17/6/24 1:46am - Zen
     - Fixed questionable html structure
     - Updated changelog.txt
+
+17/6/24 10:48am - joon kiat
+    -fixed navbar slightly broken 
+    
 
