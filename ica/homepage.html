@@ -6,7 +6,7 @@
         text-align:center;
      }
      body{
-        background-color:#e5e5e5;
+        background-color:#e6e6e6;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 130%;
@@ -160,15 +160,27 @@
     }
 
     .Footer{
-        border: 0px;
         font-size: 15px;
-        color: #717171;
+        color: rgb(44, 44, 44);
         padding: 30px;
+        margin: auto;
+        border: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(255, 255, 255);
     }
-    #Footer_row_1{
+    .Footer_row_1{
         font-weight: bold;
         font-size: 20px;
         text-align: center;
+        margin: auto;
+    }
+    .Footer_container{
+        color: rgb(78, 78, 78);
+        text-align: center;
+        padding-left: 200px;
+        padding-right: 200px;
+        margin: auto;
+        text-decoration: none;
     }
 </style>
     <title>fragrance-keebs</title>
@@ -177,28 +189,27 @@
                         
 <body>
     <div class="navbar">
-        <a href="homepage.html">home</a>
+        <a href="homepage.html">Home</a>
         <div class="dropdown">
-          <button class="dropbtn">groupbuys/pre-order
+          <button class="dropbtn">Groupbuys/Pre-Order
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="neo80.html">neo 80</a>
-            <a href="qk80.html">qk80</a>
-            <a href="luminkey80.html">luminkey 80</a>
-            <a href="coming soon.html">more coming soon!</a>
+            <a href="neo80.html">Neo 80</a>
+            <a href="qk80.html">QK80</a>
+            <a href="luminkey80.html">Luminkey 80</a>
+            <a href="coming soon.html">More coming soon!</a>
           </div>
         </div>
-        <a href="about us.html">about us</a>
-      <a href="contact us.html">contact us</a>
-      </div> <br>
-
-      <img src="logo.png" width="20%" height="20%"> <br><br>
-      
-<!--body stuff-->
+        <a href="about us.html">About us</a>
+        <a href="contact us.html">Contact us</a>
+     </div> 
+    <br>
+    <img src="logo.png" width="20%" height="20%"> <br><br>
+    
+<!--Main body container-->
 <!-- Slideshow container -->
     <div class="slideshow-container">
-
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
         <div class="numbertext">1 / 3</div>
@@ -251,21 +262,21 @@
 
     <!--Footer-->
     <table class="Footer">
-        <tr class="Footer" id="Footer_row_1">
-            <td id="Footer_row_1">Policies</td>
-            <td id="Footer_row_1">Connect with us</td>
+        <tr class="Footer" class="Footer_row_1">
+            <td class="Footer_row_1">Policies</td>
+            <td class="Footer_row_1">Connect with us</td>
         </tr>
         <tr class="Footer">
-            <td><a href="TOS.html">Terms of service</a></td>
-            <td><a href="contact_us.html">Contact Us</a></td>
+            <td><a href="TOS.html" class="Footer_container">Terms of service</a></td>
+            <td><a href="contact_us.html" class="Footer_container">Contact Us</a></td>
         </tr>
         <tr class="Footer">
-            <td><a href="Policies.html">Privacy Policy</a></td>
-            <td><a href="contact_us.html">Stores</a></td>
+            <td><a href="Policies.html" class="Footer_container">Privacy Policy</a></td>
+            <td><a href="contact_us.html" class="Footer_container">Stores</a></td>
         </tr>
         <tr class="Footer">
-            <td><a href="TOS.html">Refund Policy</a></td>
-            <td><a href="contact_us.html">Careers</a></td>
+            <td><a href="TOS.html" class="Footer_container">Refund Policy</a></td>
+            <td><a href="contact_us.html" class="Footer_container">Careers</a></td>
         </tr>
     </table>
 </body>

@@ -19,3 +19,8 @@ Helo pls log all changes here tyyyyyyyy or your gae
     - Added hyperlink to product images
     - Slight change in homepage.html
 
+18/6/24 3:03pm - Zen
+    - Stylised the footer
+    - Changed background colour
+
+
