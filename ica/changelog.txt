@@ -25,5 +25,6 @@ Helo pls log all changes here tyyyyyyyy or your gae
 
 18/6/24 3:31 - Zen
     - Overhauled homepage.html style
+    - Ported over navbar and footer into all htmls
 
 
