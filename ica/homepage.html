@@ -6,7 +6,6 @@
         text-align:center;
      }
      body{
-        background-color:#e6e6e6;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 130%;
@@ -103,7 +102,7 @@
     }
 
     /* Caption text */
-    .text {
+    .Slides_Text {
     color: #f2f2f2;
     font-size: 20px;
     padding: 8px 12px;
@@ -111,16 +110,7 @@
     bottom: 8px;
     width: 100%;
     text-align: center;
-    }
-
-    .text2 {
-     color: black;
-     font-size: 20px;
-     padding: 8px 12px;
-     position: absolute;
-     bottom: 8px;
-     width: 100%;
-     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
     }
 
     /* Number text (1/3 etc) */
@@ -159,6 +149,10 @@
     to {opacity: 1}
     }
 
+    .Body_Page{
+        background-color: #e6e6e6;
+    }
+
     .Footer{
         font-size: 15px;
         color: rgb(44, 44, 44);
@@ -166,13 +160,16 @@
         margin: auto;
         border: 0px;
         font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(255, 255, 255);
+        background-color: #e88282;
+        
     }
     .Footer_row_1{
         font-weight: bold;
         font-size: 20px;
         text-align: center;
         margin: auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
     .Footer_container{
         color: rgb(78, 78, 78);
@@ -181,6 +178,18 @@
         padding-right: 200px;
         margin: auto;
         text-decoration: none;
+    }
+    #Copyright{
+        text-align: center;
+        font-size: 20px;
+        color: rgb(44, 44, 44);
+        padding-top: 50px;
+        font-weight: bold;
+    }
+    #Body_Title{
+        font-size: 50px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
     }
 </style>
     <title>fragrance-keebs</title>
@@ -204,40 +213,43 @@
         <a href="about us.html">About us</a>
         <a href="contact us.html">Contact us</a>
      </div> 
-    <br>
-    <img src="logo.png" width="20%" height="20%"> <br><br>
+    <div class="Body_Page">
+        <br>
+        <img src="logo.png" width="20%" height="20%"> <br><br>
     
 <!--Main body container-->
 <!-- Slideshow container -->
-    <div class="slideshow-container">
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
-        <a href="neo_80.html"><img src="https://www.alexotos.com/wp-content/uploads/2024/02/DSCF0768.jpg" style="width:100%"></a>
-        <div class="text">neo 80</div>
-        </div>
+        <div class="slideshow-container">
+            <a id="Body_Title">Keyboards on sale:</a>
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <a href="neo_80.html"><img src="https://www.alexotos.com/wp-content/uploads/2024/02/DSCF0768.jpg" style="width:100%"></a>
+                <div class="Slides_Text">Neo 80</div>
+            </div>
     
-        <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
-        <a href="qk80.html"><img src="https://cdn.myportfolio.com/44c2fc27-a1ba-4d7f-80ab-886a492e5ba9/e267315d-2f88-4a3d-b184-221ebcfe8704_rw_1920.jpg?h=1b7e2638b0fbee1d143e09b883e72f0c" style="width:100%"></a>
-        <div class="text2">qk80</div>
-        </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <a href="qk80.html"><img src="https://cdn.myportfolio.com/44c2fc27-a1ba-4d7f-80ab-886a492e5ba9/e267315d-2f88-4a3d-b184-221ebcfe8704_rw_1920.jpg?h=1b7e2638b0fbee1d143e09b883e72f0c" style="width:100%"></a>
+                <div class="Slides_Text">QK80</div>
+            </div>
     
-        <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
-        <a href="luminkey_80.html"><img src="https://cdn.myportfolio.com/44c2fc27-a1ba-4d7f-80ab-886a492e5ba9/b2df32d2-fc6b-423d-942c-7b37cb78ab7c_rw_1920.jpg?h=6925ce0717e7632f46a497cebecc32d3" style="width:100%"></a>
-        <div class="text2">luminkey 80</div>
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <a href="luminkey_80.html"><img src="https://cdn.myportfolio.com/44c2fc27-a1ba-4d7f-80ab-886a492e5ba9/b2df32d2-fc6b-423d-942c-7b37cb78ab7c_rw_1920.jpg?h=6925ce0717e7632f46a497cebecc32d3" style="width:100%"></a>
+            <div class="Slides_Text">Luminkey 80</div>
+            </div>
         </div>
-    </div>
+        <br>
+    
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
     <br>
-    
-    <!-- The dots/circles -->
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
     </div>
-
     <script>
     let slideIndex = 0;
     showSlides();
@@ -261,23 +273,28 @@
     </script>
 
     <!--Footer-->
-    <table class="Footer">
-        <tr class="Footer" class="Footer_row_1">
-            <td class="Footer_row_1">Policies</td>
-            <td class="Footer_row_1">Connect with us</td>
-        </tr>
-        <tr class="Footer">
-            <td><a href="TOS.html" class="Footer_container">Terms of service</a></td>
-            <td><a href="contact_us.html" class="Footer_container">Contact Us</a></td>
-        </tr>
-        <tr class="Footer">
-            <td><a href="Policies.html" class="Footer_container">Privacy Policy</a></td>
-            <td><a href="contact_us.html" class="Footer_container">Stores</a></td>
-        </tr>
-        <tr class="Footer">
-            <td><a href="TOS.html" class="Footer_container">Refund Policy</a></td>
-            <td><a href="contact_us.html" class="Footer_container">Careers</a></td>
-        </tr>
-    </table>
+    <div class="Footer">
+        <table class="Footer">
+            <tr class="Footer" class="Footer_row_1">
+                <td class="Footer_row_1">Policies</td>
+                <td class="Footer_row_1">Connect with us</td>
+            </tr>
+            <tr class="Footer">
+                <td><a href="TOS.html" class="Footer_container">Terms of service</a></td>
+                <td><a href="contact_us.html" class="Footer_container">Contact Us</a></td>
+            </tr>
+            <tr class="Footer">
+                <td><a href="Policies.html" class="Footer_container">Privacy Policy</a></td>
+               <td><a href="contact_us.html" class="Footer_container">Stores</a></td>
+            </tr>
+            <tr class="Footer">
+                <td><a href="TOS.html" class="Footer_container">Refund Policy</a></td>
+                <td><a href="contact_us.html" class="Footer_container">Careers</a></td>
+            </tr>
+            <tr class="Footer">
+                <td colspan="2"><a id="Copyright">&copy; Fragrance Keebs inc. 2024</a></td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
