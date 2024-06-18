@@ -11,5 +11,6 @@ Helo pls log all changes here tyyyyyyyy or your gae
     -added logo into homepage
     -changed homepage to keyboards including store options
     -added auto sliding show for keyboard showcase in homepage
-
+18/6/24 2:33pm - Zen
+    - Added footer
 
