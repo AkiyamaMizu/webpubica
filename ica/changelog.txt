@@ -36,4 +36,5 @@ Helo pls log all changes here tyyyyyyyy or your gae
 24/6/24 11.01am - joon kiat
     -added more stuff/content to homepage
     -added responsive web code to homepage
-
+24/6/24 11:20am - travis
+-added about me page 
