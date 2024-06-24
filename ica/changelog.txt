@@ -30,4 +30,7 @@ Helo pls log all changes here tyyyyyyyy or your gae
 18/6/24 3:47 - Zen
     - Made a template so yall can use if uw make new page. Just copy this and fill the body contents under the contents comment
 
+24/6/24 10:47pm - Zen
+    - added comment as instructions in Template.html
+    - converted all css thingys into external css called ligma.css :3
 
