@@ -38,3 +38,5 @@ Helo pls log all changes here tyyyyyyyy or your gae
     -added responsive web code to homepage
 24/6/24 11:20am - travis
 -added about me page 
+24/6/24 11:43am - travis
+-added vision and mission to the about me page
