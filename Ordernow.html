@@ -29,23 +29,39 @@
         <a class="Order_Body_Title">Order form</a> <br>
         <table class="order_form_dummy_table">
             <form method="get">
-                <label for="First_Name" class="order_label_text">First Name:</label>
-                <input type="text" name="First_Name" class="order_input_text"> <br>
-                <label for="Last_Name" class="order_label_text">Last Name:</label>
-                <input type="text" name="Last_Name"  class="order_input_text"> <br>
-                <label for="Email" class="order_label_text">Email:</label>
-                <input type="text" name="Email" class="order_input_text"> <br>
-                <a id="Order_Payment_Title">Choose your payment method:</a> <br>
-                <label for="Payment_Method" class="order_label_text">Credit Card</label>
-                <input type="radio" name="Payment_Method">
-                <label for="Payment_Method" class="order_label_text">Paynow</label>
-                <input type="radio" name="Payment_Method">
-                <label for="Payment_Method" class="order_label_text">Cash on Delivery</label>
-                <input type="radio" name="Payment_Method"> <br>
-                <label for="address" class="order_label_text">Address</label>
-                <input type="text" name="address" class="order_input_text"> <br>
-                <input type="submit">
-                <input type="reset">
+                <tr>
+                    <td><label for="First_Name" class="order_label_text">First Name:</label></td>
+                    <td><input type="text" name="First_Name" class="order_input_text"></td>
+                </tr>
+                <tr>
+                    <td><label for="Last_Name" class="order_label_text">Last Name:</label></td>
+                    <td><input type="text" name="Last_Name" class="order_input_text"></td>
+                </tr>
+                <tr>
+                    <td><label for="Email" class="order_label_text">Email:</label></td>
+                    <td><input type="text" name="Email" class="order_input_text"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><a id="Order_Payment_Title">Choose your payment method:</a></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="Payment_Method" class="order_label_text">Credit Card</label>
+                        <input type="radio" name="Payment_Method">
+                        <label for="Payment_Method" class="order_label_text">Paynow</label>
+                        <input type="radio" name="Payment_Method">
+                        <label for="Payment_Method" class="order_label_text">Cash on Delivery</label>
+                        <input type="radio" name="Payment_Method">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="address" class="order_label_text">Address</label></td>
+                    <td><input type="text" name="address" class="order_input_text"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit"></td>
+                    <td><input type="reset"></td>
+                </tr>
             </form>
         </table>
     </div>
