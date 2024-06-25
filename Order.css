@@ -1,0 +1,19 @@
+.Order_Body_Title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.order_form_dummy_table{
+    padding: 50px;
+}
+.order_input_text{
+    padding: auto;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.order_label_text{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
