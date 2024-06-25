@@ -5,15 +5,24 @@
 }
 .order_form_dummy_table{
     padding: 50px;
+    display: inline;
 }
 .order_input_text{
-    padding: auto;
+    padding: 10px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
 }
 .order_label_text{
+    padding: 10px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
+}
+#Order_Payment_Title{
+    padding: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
 }
