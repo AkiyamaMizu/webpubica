@@ -40,3 +40,5 @@ Helo pls log all changes here tyyyyyyyy or your gae
 -added about me page 
 24/6/24 11:43am - travis
 -added vision and mission to the about me page
+1/7/24 -Jeremy
+-Contact Us I added part of the FAQs
