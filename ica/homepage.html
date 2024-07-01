@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
-<head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
     <link href="ligma.css" rel="stylesheet">
     <title>fragrance-keebs</title>
 </head> 
@@ -12,18 +12,19 @@
     <div class="navbar">
         <a href="homepage.html">Home</a>
         <div class="dropdown">
-         <button class="dropbtn">Groupbuys/Pre-Order 
+          <button class="dropbtn">Groupbuys/Pre-Order
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="neo_80.html">Neo 80</a>
+            <a href="neo80.html">Neo 80</a>
             <a href="qk80.html">QK80</a>
-            <a href="luminkey_80.html">Luminkey 80</a>
+            <a href="luminkey80.html">Luminkey 80</a>
             <a href="homepage.html"> More coming soon!</a>
           </div>
         </div>
-        <a href="about_us.html">About us</a>
-        <a href="contact_us.html">Contact us</a>
+        <a href="catalog.html">Catalog</a>
+        <a href="about us.html">About us</a>
+        <a href="contact us.html">Contact us</a>
     </div> 
     <!--Main body container-->
     <div class="Body_Page">
@@ -61,41 +62,21 @@
     <br>
     <!--notes-->
     <a id="Body_Text_Note">Do note that switches and keycaps are not included in our kits. Stabilizers are inclusive in our kits</a>
+    <br>
     </div>
-    <script>
-    let slideIndex = 0;
-    showSlides();
-
-    function showSlides() {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 3500); // Change image every 3.5 seconds
-    }
-    </script>
-    
-    <div>
+    <div class="Body_Page_2">
         <table>
-            <header><h3>some builds done by our community</h3></header>
             <tr>
-                <td><a href="https://www.youtube.com/watch?v=lD8kcnYvHsw"><img src="https://i.ytimg.com/vi/lD8kcnYvHsw/maxresdefault.jpg" width="100%" height="100%"></a></td>
-                <td><a href="https://www.youtube.com/watch?v=iA57VGkCdE4"><img src="https://i.ytimg.com/vi/iA57VGkCdE4/maxresdefault.jpg" width="100%" height="100%"></a></td>
-                <td><a href="https://www.youtube.com/watch?v=c_kfYpX8Q6g"><img src="https://i.ytimg.com/vi/c_kfYpX8Q6g/maxresdefault.jpg" width="100%" height="100%"></a></td>
+                <td colspan="3" class="Table_1_Title">
+                    <a class="Table_1_Title">Some builds done by our community</a>
+                </td>
+            <tr>
+                <td><a href="https://www.youtube.com/watch?v=lD8kcnYvHsw" target="_blank"><img src="https://i.ytimg.com/vi/lD8kcnYvHsw/maxresdefault.jpg" width="100%" height="100%"></a></td>
+                <td><a href="https://www.youtube.com/watch?v=iA57VGkCdE4" target="_blank"><img src="https://i.ytimg.com/vi/iA57VGkCdE4/maxresdefault.jpg" width="100%" height="100%"></a></td>
+                <td><a href="https://www.youtube.com/watch?v=c_kfYpX8Q6g" target="_blank"><img src="https://i.ytimg.com/vi/c_kfYpX8Q6g/maxresdefault.jpg" width="100%" height="100%"></a></td>
             </tr>
         </table>
     </div>
-
-
     <!--Footer-->
     <div class="Footer">
         <table class="Footer">
@@ -120,5 +101,27 @@
             </tr>
         </table>
     </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+    
+        function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 3500); // Change image every 3.5 seconds
+        }
+    </script>   
 </body>
 </html>
