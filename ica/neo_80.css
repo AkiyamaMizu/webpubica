@@ -1,0 +1,18 @@
+.main_txt{
+    vertical-align:text-top;
+    font-weight:bold;
+    font-size:20px;
+}
+.main_txt2{
+    vertical-align:text-top;
+    font-weight:lighter;
+    font-size:15px
+}
+
+.images{
+    align-items:left;
+}
+.header{
+    font-weight:bold;
+    font-size:20px;
+}
