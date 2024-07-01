@@ -3,6 +3,23 @@
     <head>
         <link href="ligma.css" rel="stylesheet">
         <title></title>
+        <style>
+        .box {
+            display: flex;
+            align-items: center;
+            width: 800px;
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px auto;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 20px;
+            align: left;
+        }
+        .box-text {
+            flex: 1;
+        }
+        </style>
     </head>
 
     <body>
@@ -26,11 +43,21 @@
     </div> 
     <!--Body contents-->
     <div>
-        <a id="Body_Title">Contact Us!</a>
-        <br>
-
-    &nbsp;&nbsp; <h2 style="font-family:'Arial'"> FAQ List </h2>
+        <a id="Body_Title">Contact Us!</a> <br>
+    
+    &nbsp; <h2 style="font-family:'Arial'"> FAQ List </h2>
     </div>
+    <div class="box">
+        <div class="box-text" align="left">
+            <h3><u>General Questions</u></h3>
+
+            <h3><u>Shipping & Delivery</u></h3>
+            
+            <h3><u>Returns and Order Cancellation</u></h3>
+            
+        </div>
+    </div>
+        
     <!--Footer-->
     <div class="Footer">
         <table class="Footer">
