@@ -26,7 +26,7 @@
     </div>
     <!--Body contents-->
     <div>
-        <table>
+        <table class="table_1">
             <tr>
                 <td style="width:59%">
                     <img src="https://mecha.store/cdn/shop/files/neo80_hero_1028x1028@2x.png?v=1715004170" width="70%" height=70%>
@@ -49,142 +49,134 @@
 
                 </td>
                 <td>
-                    <br><br>
-                    <p class="main_txt">Neo 80 barebones kit <br>$289 SGD</p>
-                    <p class="main_txt2">shipping calculated at checkout</p>
+                    <p class="main_txt">Neo 80 barebones kit<br>$289 SGD</p>
+                    <p class="main_txt2">Shipping calculated at checkout</p>
                     <!--options selector here-->
-                    <a class="layout">Layout</a> <br>
-                    <select class="leyout_option">
-                        <option value="wk" selected>WK</option>
-                        <option value="WKL">WKL</optiopn>
-                    </select> <br> <br>
-
-                    <a class="top_case">Top case colour</a> <br>
-                    <select name="top case colour">
-                        <option value="anodized champagne" selected>anodized champagne</option>
-                        <option value="anodized green">anodized green</option>
-                        <option value="anodized purple">anodized purple</option>
-                        <option value="anodized navy">anodized navy</option>
-                        <option value="anodized red">anodized red</option>
-                        <option value="anodized baby blue">anodized baby blue</option>
-                        <option value="anodized black">anodized black</option>
-                        <option value="anodized silver">anodized silver</option>
-                        <option value="spray-coated white">spray-coated white</option>
-                        <option value="spray-coated retro white">spray-coated retro white</option>
-                        <option value="spray-coated pink">spray-coated pink</option>
-                        <option value="spray-coated lilac">spray-coated lilac</option>
-                        <option value="spray-coated cream">spray-coated cream</option>
-                        <option value="spray-coated red">spray-coated red</option>
-                        <option value="spray-coated avacado">spray-coated avacado</option>
-                        <option value="raw">raw</option>
-                    </select> <br> <br>
-
-                    <a class="bottom_case">Bottom case</a> <br>
-                    <select name="bottom case colour">
-                        <option value="same as top case" selected>same as top case</option>
-                        <option value="anodized silver">anodized silver</option>
-                        <option value="anodized champagne">anodized champagne</option>
-                    </select> <br> <br>
-
-                    <a class="weight">Weight</a> <br>
-                    <select name="weight">
-                        <option value="spray-coated white" selected>spray-coated white</option>
-                        <option value="spray-coated black">spray-coated black</option>
-                        <option value="spray-coated gold">spray-coated gold</option>
-                        <option value="copper">copper</option>
-                        <option value="mirror PVD silver">mirror PVD silver</option>
-                        <option value="mirror PVD Dusk">mirror PVD dusk</option>
-                        <option value="mirror PVD chroma">mirror PVD chroma</option>
-                        <option value="stone-washed silver">stone-washed silver</option>
-                        <option value="stone-washed black">stone-washed black</option>
-                        <option value="stone-washed dark golden">stone-washed dark golden</option>
-                    </select> <br> 
-
-                    <a class="PCB">PCB</a> <br>
-                    <select name="PCB type">
-                        <option value="tri-mode none-flex cut hotswap PCB">tri-mode none-flex cut hotswap PCB</option>
-                        <option value="wired none-flex cut hotswap PCB">wired none-flex cut hotswap PCB</option>
-                        <option value="wired none-flex cut solder PCB">wired none-flex cut solder PCB</option>
-                    </select> <br> <br>
-
-                    <a class="plate">Plate</a> <br>
-                    <select name="plate_type">
-                        <option value="carbon fibre">carbon fibre</option>
-                        <option value="aluminium">aluminium</option>
-                        <option value="FR4">FR4</option>
-                        <option value="POM">POM</option>
-                        <option value="Polycarbonate">polycabonate</option>
-                        <option value="plateless">plateless</option>
-                    </select> <br> <br>
-
-                    <input type="submit" value="buy now">
-                    <input type="reset" value="clear">
-                    <br> <br>
-                    <p class="kit_description">this keyboard kit is pre-order and takes 2-4 weeks to be shipped</p>
-                    <p class="kit_description">the neo 80 is a brilliant tkl to start your keyboard journey with its ease to build and latest features</p>
-                    <br> 
-                    <p class="content_list">Note:</p>
-                    <ul>
-                        <li>ball catch case mount</li>
-                        <li>magnetic daughterboard connecter</li>
-                        <li>all PCBs are QMK and VIA compatible</li>
-                        <li>chroma and dusk PVD weights have a random mix of gradient,<br>so your product may vary</li>
-                        <li>plateless is only for solder PCB</li>
+                    <!--Layout-->
+                    <form method="get">
+                        <a class="options_titles">Layout</a>
+                        <select class="leyout_option">
+                           <option value="wk" selected>WK</option>
+                           <option value="WKL">WKL</optiopn>
+                        </select>
+                        <br>
+                        <!--Color-->
+                        <a class="options_titles">Top case colour</a>
+                        <select name="top case colour" class="options_lists">
+                            <option value="anodized champagne" selected>Anodized champagne</option>
+                            <option value="anodized green">Anodized green</option>
+                            <option value="anodized purple">Anodized purple</option>
+                            <option value="anodized navy">Anodized navy</option>
+                            <option value="anodized red">Anodized red</option>
+                            <option value="anodized baby blue">Anodized baby blue</option>
+                            <option value="anodized black">Anodized black</option>
+                            <option value="anodized silver">Anodized silver</option>
+                            <option value="spray-coated white">Spray-coated white</option>
+                            <option value="spray-coated retro white">Spray-coated retro white</option>
+                            <option value="spray-coated pink">Spray-coated pink</option>
+                            <option value="spray-coated lilac">Spray-coated lilac</option>
+                            <option value="spray-coated cream">Spray-coated cream</option>
+                            <option value="spray-coated red">Spray-coated red</option>
+                            <option value="spray-coated avacado">Spray-coated avacado</option>
+                            <option value="raw">Raw</option>
+                        </select>
+                        <br>
+                        <!--Bottom Case-->
+                        <a class="options_titles">Bottom case</a>
+                        <select name="bottom case colour" class="options_lists">
+                            <option value="same as top case" selected>Same as top case</option>
+                            <option value="anodized silver">Anodized silver</option>
+                            <option value="anodized champagne">Anodized champagne</option>
+                        </select>
+                        <br>
+                        <!--Weight-->
+                        <a class="options_titles">Weight</a>
+                        <select name="weight" class="options_lists">
+                            <option value="spray-coated white" selected>Spray-coated white</option>
+                            <option value="spray-coated black">Spray-coated black</option>
+                            <option value="spray-coated gold">Spray-coated gold</option>
+                            <option value="copper">Copper</option>
+                            <option value="mirror PVD silver">Mirror PVD silver</option>
+                            <option value="mirror PVD Dusk">Mirror PVD dusk</option>
+                            <option value="mirror PVD chroma">Mirror PVD chroma</option>
+                            <option value="stone-washed silver">Stone-washed silver</option>
+                            <option value="stone-washed black">Stone-washed black</option>
+                            <option value="stone-washed dark golden">Stone-washed dark golden</option>
+                        </select>
+                        <br>
+                        <!--PCB-->
+                        <a class="options_titles">PCB</a>
+                        <select name="PCB type" class="options_lists">
+                            <option value="tri-mode none-flex cut hotswap PCB">Tri-mode none-flex cut hotswap PCB</option>
+                            <option value="wired none-flex cut hotswap PCB">Wired none-flex cut hotswap PCB</option>
+                            <option value="wired none-flex cut solder PCB">Wired none-flex cut solder PCB</option>
+                        </select>
+                        <br>
+                        <!--Plate-->
+                        <a class="options_titles">Plate</a>
+                        <select name="plate_type" class="options_lists">
+                            <option value="carbon fibre">Carbon fibre</option>
+                            <option value="aluminium">Aluminium</option>
+                            <option value="FR4">FR4</option>
+                            <option value="POM">POM</option>
+                            <option value="Polycarbonate">Polycabonate</option>
+                            <option value="plateless">Plateless</option>
+                        </select>
+                        <br>
+                        <!--Submit and Clear button-->
+                        <input type="Submit" value="Buy Now!" class="buttons">
+                        <input type="Reset" value="Clear"  class="buttons">
+                    </form>
+                    <!--Order Form ends-->
+                    <p class="kit_description">This keyboard kit is pre-order and takes 2-4 weeks to be shipped. <br> The neo 80 is a brilliant tkl to start your keyboard journey with its ease to build and latest features</p>
+                    <a class="content_list">Note:</a>
+                    <ul class="main_txt3">
+                        <li class="main_txt3">Ball catch case mount</li>
+                        <li class="main_txt3">Magnetic daughterboard connecter</li>
+                        <li class="main_txt3">All PCBs are QMK and VIA compatible</li>
+                        <li class="main_txt3">Chroma and dusk PVD weights have a random mix of gradient,<br>so your product may vary</li>
+                        <li class="main_txt3">Plateless is only for solder PCB</li>
                     </ul>
-                    <br> 
                 
                 
-                    <p class="content_list">CONTENT LIST</p>
-                <p>
-                    <ul>
-                        <li>case (top and bottom)
+                    <a class="content_list">CONTENT LIST</a>
+                    <ul class="main_txt3">
+                       <li class="main_txt3">Case (top and bottom)
                             <ul>
-                                <li>tri mode PCB comes with 2 2200mAh batteries pre-installed for you</li>
-                                <li>orders with wired pcb will have fillers for battery compartment</li>
+                                <li class="main_txt3">Tri mode PCB comes with 2 2200mAh batteries pre-installed for you</li>
+                                <li class="main_txt3">Orders with wired pcb will have fillers for battery compartment</li>
                             </ul>
                         </li>
-                        <li>PCB kit
+                        <li class="main_txt3">PCB kit
                             <ul>
-                                <li>1.6mm PCB of your choice</li>
-                                <li>1x pe sheet</li>
-                                <li>1x PCB foam</li>
-                                <li>standoffs</li>
-                                <li>tri mode PCB will have a 2.4Ghz USB A dongle</li>
+                                <li class="main_txt3">1.6mm PCB of your choice</li>
+                                <li class="main_txt3">1x pe sheet</li>
+                                <li class="main_txt3">1x PCB foam</li>
+                                <li class="main_txt3">Standoffs</li>
+                                <li class="main_txt3">Tri mode PCB will have a 2.4Ghz USB A dongle</li>
                             </ul>
                         </li>
-                        <li>
-                            plate of your choice
-                        </li>
-                        <li>
-                            poron case foam
-                        </li>
-                        <li>PCB daughterboard-installed</li>
-                        <li>case corner protectors-installed</li>
-                        <li>Gasket jackets and dumbbells</li>
-                        <li>Brass pillars and standoffs</li>
-                        <li>O-ring mount</li>
-                        <li>Rubber feat(bumpons)</li>
-                        <li>LED diffuser</li>
-                        <li>free gifts(not covered by warranty)
+                        <li class="main_txt3">Plate of your choice</li>
+                        <li class="main_txt3">Poron case foam</li>
+                        <li class="main_txt3">PCB daughterboard-installed</li>
+                        <li class="main_txt3">Case corner protectors-installed</li>
+                        <li class="main_txt3">Gasket jackets and dumbbells</li>
+                        <li class="main_txt3">Brass pillars and standoffs</li>
+                        <li class="main_txt3">O-ring mount</li>
+                        <li class="main_txt3">Rubber feat(bumpons)</li>
+                        <li class="main_txt3">LED diffuser</li>
+                        <li class="main_txt3">free gifts(not covered by warranty)
                             <ul>
-                                <li>1x neo clip-in stabs</li>
-                                <li>1x neo keycap and switch puller</li>
-                                <li>hard keyboard carrying case(80%)</li>
-                                <li>sleaved USB-C cable (1.5m)</li>
+                                <li class="main_txt3">1x neo clip-in stabs</li>
+                                <li class="main_txt3">1x neo keycap and switch puller</li>
+                                <li class="main_txt3">hard keyboard carrying case(80%)</li>
+                                <li class="main_txt3">sleaved USB-C cable (1.5m)</li>
                             </ul>
                         </li>
-                    
                     </ul>
-                </p>
-
-
                 </td>   
             </tr>
-            
-            <tr>
-            </tr>
-           
-        </table> <br>
+        </table>
 
         <img src="https://mecha.store/cdn/shop/files/WKandWKL_1028x1028@2x.jpg?v=1715004169" width="70%" height="70%">
         <img src="https://mecha.store/cdn/shop/files/caseoptions_1028x1028@2x.jpg?v=1715004170" width="70%" height="70%">
@@ -193,14 +185,13 @@
         <img src="https://mecha.store/cdn/shop/files/magneticconnectors_1028x1028@2x.jpg?v=1715004169" width="70%" height="70%">
         <img src="https://mecha.store/cdn/shop/files/size_1028x1028@2x.jpg?v=1715004169" width="70%" height="70%">
         <img src="https://mecha.store/cdn/shop/files/layout_1028x1028@2x.jpg?v=1715004169" width="70%" height="70%">
-        <br><br>
 
-        <a class="vids">videos about the keyboard</a> <br> <br>
+        <a class="vids">videos about the keyboard</a>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/7LMjQJTqIYg?si=NLzXejIUKSMOFu3y" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/I-GD6tnBCb8?si=l66nyr3trw9hgpn5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         <table>
-            <header class="header"><h1>other products</h1></header>
+            <header class="header">other products</header>
             <tr>
                 <td>
                     <a href="qk80.html"><img src="https://cdn.myportfolio.com/44c2fc27-a1ba-4d7f-80ab-886a492e5ba9/e267315d-2f88-4a3d-b184-221ebcfe8704_rw_1920.jpg?h=1b7e2638b0fbee1d143e09b883e72f0c" width="60%" height="60%"></a>
@@ -216,13 +207,13 @@
             
             <tr>
                 <td>
-                    <h2><a href="qk80.html">QK80</a></h2>
+                    <a href="qk80.html" class="Hyperlinks">QK80</a>
                 </td>
                 <td>
-                    <h2><a href="luminkey_80.html">luminkey 80</a></h2>
+                    <a href="luminkey_80.html" class="Hyperlinks">luminkey 80</a>
                 </td>
                 <td>
-                    <h2><a href="bsun_bocchi.html">bocchi switches</a></h2>
+                    <a href="bsun_bocchi.html" class="Hyperlinks">bocchi switches</a>
                 </td>
             </tr>
         </table>
