@@ -33,67 +33,80 @@
         <table class="order_form_dummy_table">
             <form action="ThankYou!.html" method="get">
                 <!--Name-->
-                <tr>
-                    <td><label for="Full_Name" class="order_label_text"><h3>Full Name:</h3></label></td>
-                    <td><input type="text" name="Full_Name" class="order_input_text"></td>
-                </tr>
-                <tr>
-                    <td><label for="HPnumber" class="order_label_text"><h3>Phone number:</h3></label></td>
-                    <td><input type="text" name="HPnumber" class="order_input_text"></td>
-                </tr>
+                <div class="Bgcolour_1">
+                    <tr>
+                        <td><label for="Full_Name" class="order_label_text"><a>Full Name:</a></label></td>
+                        <td><input type="text" name="Full_Name" class="order_input_text"></td>
+                    </tr>
+                </div>
+                <div class="Bgcolour_2">
+                    <tr>
+                        <td><label for="HPnumber" class="order_label_text"><a>Phone number:</a></label></td>
+                        <td><input type="text" name="HPnumber" class="order_input_text"></td>
+                    </tr>
+                </div>
                 <!--Email-->
-                <tr>
-                    <td><label for="Email" class="order_label_text"><h3>Email:</h3></label></td>
-                    <td><input type="text" name="Email" class="order_input_text"></td>
-                </tr>
+                <div class="Bgcolour_1">
+                    <tr>
+                        <td><label for="Email" class="order_label_text"><a>Email:</a></label></td>
+                        <td><input type="text" name="Email" class="order_input_text"></td>
+                    </tr>
+                </div>
                 <!--Payment Method-->
-                <tr>
-                    <td colspan="2"><a id="Order_Payment_Title">Choose your payment method:</a></td>
-                </tr>
+                <div Class="Bgcolour_2">
+                    <tr>
+                        <td colspan="2"><a id="Order_Payment_Title">Choose your payment method:</a></td>
+                    </tr>
+                </div>
                 <!--Payment Method Types-->
-                <tr>
-                    <td>
-                        <label for="Payment_Method" class="order_label_text">Credit Card</label>
-                    </td>
-                    <td>
-                        <input type="radio" name="Payment_Method">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="Payment_Method" class="order_label_text">Paynow</label>
-                    </td>
-                    <td>
-                        <input type="radio" name="Payment_Method">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="Payment_Method" class="order_label_text">Cash on Delivery</label>
-                    </td>
-                    <td>
-                        <input type="radio" name="Payment_Method">
-                    </td>
-                </tr>
+                <div class="Bgcolour_1">
+                    <tr>
+                        <td>
+                            <label for="Payment_Method" class="order_label_text_small">Credit Card</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="Payment_Method">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Payment_Method" class="order_label_text_small">Paynow</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="Payment_Method">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Payment_Method" class="order_label_text_small">Cash on Delivery</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="Payment_Method">
+                        </td>
+                    </tr>
+                </div>
                 <!--Address-->
-                <tr>
-                    <td><label for="address" class="order_label_text"><h3>Address</h3></label></td>
-                    <td><input type="text" name="address" class="order_input_text"></td>
-                <tr>
-                    <td><label for="postalcode" class="order_label_text"><h3>Postal code</h3></label></td>
-                    <td><input type="text" name="postalcode" class="order_input_text"></td>
-                </tr>
+                <div class="Bgcolour_2">
+                    <tr>
+                        <td><label for="address" class="order_label_text"><a>Address</a></label></td>
+                        <td><input type="text" name="address" class="order_input_text"></td>
+                    </tr>
+                </div>
+                <div class="Bgcolour_1">
+                    <tr>
+                        <td><label for="postalcode" class="order_label_text"><a>Postal code</a></label></td>
+                        <td><input type="text" name="postalcode" class="order_input_text"></td>
+                    </tr>
+                </div>
                 <!--Submit and Reset-->
-                <tr>
-                    <td colspan="2">
-<<<<<<< HEAD
-                        <input type="submit" class="bottom_buttons">
-=======
-                        <input type="image" src="img_submit.gif" alt="Submit" width="100" height="100">
->>>>>>> 5dc0c0a84fe023858048f52e16dc41f1bae6f2b8
-                        <input type="reset">
-                    </td>
-                </tr>
+                <div class="Bgcolour_2">
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" class="bottom_buttons"> &nbsp; &nbsp;
+                            <input type="reset" class="bottom_buttons">
+                        </td>
+                    </tr>
+                </div>
             </form>
         </table>
     </div>
