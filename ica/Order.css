@@ -17,13 +17,48 @@
     padding: 10px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
+    font-size: 20px;
     text-align: left;
+    font-weight: bold;
+    display: block;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate; 
+}
+.order_label_text_small{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-weight: bold;
 }
 #Order_Payment_Title{
     padding: 10px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: bold;
+}
+.bottom_buttons{
+    background-color: #e88282;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+.Bgcolour_1{
+    background-color: rgb(210, 210, 210);
+}
+.Bgcolour_2{
+    background-color: rgb(190, 190, 190);
 }
