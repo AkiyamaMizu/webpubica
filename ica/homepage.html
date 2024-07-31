@@ -126,5 +126,29 @@
         setTimeout(showSlides, 3500); // Change image every 3.5 seconds
         }
     </script>   
+    <!--
+    let slideIndex = 0; means setting variable slideindex 0 at the start of the script
+    showSlides(); means this function is called to start the slideshow.
+    let slides = document.getElementsByClassName("mySlides");  this line retrieves all elements with the class name "mySlides"
+    let dots = document.getElementsByClassName("dot");  this retrieves all elements with the class name "dot"
+
+    for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+    }   
+    This loop hides all slides by setting their display style to "none".
+
+    slideIndex++  Increments the slideIndex to move to the next slide.
+    if (slideIndex > slides.length) {slideIndex = 1}  if varable "SlideIndex" exceeds the number of slides, it wraps around to 1, so the slideshow starts over from the first slide.
+
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    This loop removes the " active" class from all dot elements, essentially deactivating all dots.
+    
+
+    slides[slideIndex-1].style.display = "block"; adds the " active" class to the dot corresponding to the current slide, highlighting it.
+
+    setTimeout(showSlides, 3500); updates the slide every 3.5 seconds
+    -->
 </body>
 </html>
