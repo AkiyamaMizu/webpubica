@@ -38,7 +38,7 @@
     unicode-bidi: isolate;
     font-weight: bold;
 }
-#Order_Payment_Title{
+.Order_Payment_Title{
     padding: 10px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;

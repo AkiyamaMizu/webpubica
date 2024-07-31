@@ -36,89 +36,98 @@
     <!--Body contents-->
     <div>
         <table>
-        <!--Payment Method-->
-            <tr>
-                <td colspan="2"><a id="Order_Payment_Title">Choose your payment method:</a></td>
-            </tr>
-        <!--Payment Method Types-->
-            <tr>
-                <td>
-                    <label for="Payment_Method" class="order_label_text_small">Credit Card</label>
-                </td>
-                <td>
-                    <input type="radio" name="Payment_Method">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="Payment_Method" class="order_label_text_small">Paynow</label>
-                </td>
-                <td>
-                    <input type="radio" name="Payment_Method">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="Payment_Method" class="order_label_text_small">Cash on Delivery</label>
-                </td>
-                <td>
-                    <input type="radio" name="Payment_Method">
-                </td>
-            </tr>
-            <!--Credit Card Payment-->
-            <tr>
-                <td>
-                    <label for="Credit_card_number" class="order_label_text"><a>Credit Card Number*</a></label>
-                </td>
-                <td>
-                    <input type="text" name="Credit_card_number" class="order_input_text">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="Credit_card_name" class="order_label_text"><a>Name on card*</a></label>
-                </td>
-                <td>
-                    <input type="text" name="Credit_card_name" class="order_input_text">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="Credit_card_cvv" class="order_label_text"><a>CVV*</a></label>
-                </td>
-                <td>
-                    <input type="text" name="Credit_card_name" class="order_input_text">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="Credit_card_exp" class="order_label_text"><a>Expiry Date*</a></label>
-                </td>
-                <td>
-                    <input type="text" name="Credit_card_name" class="order_input_text">
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <a class="sidenote">* Fields required for credit card payment</a>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <a>Paynow QR Code:</a>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <img href="Thankyou_QR_Code.png">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="submit" class="bottom_buttons" name="Order!"> &nbsp; &nbsp;
-                    <input type="reset" class="bottom_buttons">
-                </td>
-            </tr>
+            <form action="ThankYou.html" method="get">
+                <!--Payment Method-->
+                <tr>
+                    <td colspan="2"><a class="Order_Payment_Title">Choose your payment method:</a></td>
+                </tr>
+                <!--Payment Method Types-->
+                <tr>
+                    <td>
+                        <label for="Payment_Method" class="order_label_text_small">Credit Card</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="Payment_Method">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Payment_Method" class="order_label_text_small">Paynow</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="Payment_Method">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Payment_Method" class="order_label_text_small">Cash on Delivery</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="Payment_Method">
+                    </td>
+                </tr>
+                <!--Credit Card Payment-->
+                <tr>
+                    <td>
+                        <label for="Credit_card_number" class="order_label_text"><a>Credit Card Number*</a></label>
+                    </td>
+                    <td>
+                        <input type="text" name="Credit_card_number" class="order_input_text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Credit_card_name" class="order_label_text"><a>Name on card*</a></label>
+                    </td>
+                    <td>
+                        <input type="text" name="Credit_card_name" class="order_input_text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Credit_card_cvv" class="order_label_text"><a>CVV*</a></label>
+                    </td>
+                    <td>
+                        <input type="text" name="Credit_card_name" class="order_input_text">
+                   </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Credit_card_exp" class="order_label_text"><a>Expiry Date*</a></label>
+                    </td>
+                    <td>
+                        <input type="text" name="Credit_card_name" class="order_input_text">
+                    </td>
+                </tr>
+                <!--Note for people using credit card-->
+                <tr>
+                    <td colspan="2">
+                        <a class="sidenote">* Fields required for credit card payment</a>
+                    </td>
+                </tr>
+                <!--Paynow QR Code-->
+                <tr>
+                    <td colspan="2">
+                        <a class="Order_Payment_Title">Paynow QR Code:</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <img href="Thankyou_QR_Code.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="sidenote">If you have selected cash on delivery, please do not fill in any blanks</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" class="bottom_buttons" name="Order!"> &nbsp; &nbsp;
+                        <input type="reset" class="bottom_buttons">
+                    </td>
+                </tr>
+            </form>
         </table>
     </div>
 </div>
