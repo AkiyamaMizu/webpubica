@@ -8,6 +8,8 @@
 <html>
     <head>
         <link href="ligma.css" rel="stylesheet">
+        <link href="Order.css" rel="stylesheet">
+        <link href="payment_page.css" rel="stylesheet">
         <title></title>
     </head>
 
@@ -66,7 +68,55 @@
             <!--Credit Card Payment-->
             <tr>
                 <td>
-                    
+                    <label for="Credit_card_number" class="order_label_text"><a>Credit Card Number*</a></label>
+                </td>
+                <td>
+                    <input type="text" name="Credit_card_number" class="order_input_text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Credit_card_name" class="order_label_text"><a>Name on card*</a></label>
+                </td>
+                <td>
+                    <input type="text" name="Credit_card_name" class="order_input_text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Credit_card_cvv" class="order_label_text"><a>CVV*</a></label>
+                </td>
+                <td>
+                    <input type="text" name="Credit_card_name" class="order_input_text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Credit_card_exp" class="order_label_text"><a>Expiry Date*</a></label>
+                </td>
+                <td>
+                    <input type="text" name="Credit_card_name" class="order_input_text">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <a class="sidenote">* Fields required for credit card payment</a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <a>Paynow QR Code:</a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <img href="Thankyou_QR_Code.png">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" class="bottom_buttons" name="Order!"> &nbsp; &nbsp;
+                    <input type="reset" class="bottom_buttons">
                 </td>
             </tr>
         </table>
