@@ -46,9 +46,8 @@ header{
     font-size:20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.table_1{
-    padding-top: 30px;
-    padding-bottom: 30px;
+.Item_Description{
+    background-color: rgb(190, 190, 190);
 }
 .options_titles{
     font-size: 17px;
@@ -77,13 +76,28 @@ header{
 .pictures{
     float:left;
     width:60%;
+    padding: 0px;
 }
 .words{
     float:right;
     width:40%;
+    padding: 0px;
 }
 @media screen and (max-width: 900px) {
     .pictures, .words{
             width:100%;
     }
+}
+.Showcase{
+    margin: auto;
+}
+.Gallery{
+    background-color: rgb(210, 210, 210);
+}
+.Others{
+    background-color: rgb(230, 230, 230);
+}
+.table_1{
+    border: 0.1px;
+    border-color: rgb(190, 190, 190);
 }
